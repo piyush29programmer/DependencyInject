@@ -12,6 +12,7 @@ namespace DependencyInjection
         {
             DependencyInject DI = new DependencyInject(new Dog());
             DI.print();
+            Console.WriteLine("Project Completed");
         }
     }
 }
